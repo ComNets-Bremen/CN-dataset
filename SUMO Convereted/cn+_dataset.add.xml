@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 08 Nov 2022 10:02:23 AM UTC by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/veins/sumotest/CP/run1/final/test1/run1.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/veins/sumotest/CP/run1/final/test1/811.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/veins/sumotest/CP/run1/final/test1/811.add.xml"/>
+        <route-files value="/home/veins/sumotest/CP/run1/final/test1/1.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_251393900#2_0_3" lane="251393900#2_0" startPos="117.15" endPos="127.15"/>
+    <busStop id="busStop_251393901#3_0_2" lane="251393901#3_0" startPos="34.41" endPos="44.41"/>
+    <busStop id="busStop_33557890#1_0_1" lane="33557890#1_0" startPos="14.21" endPos="24.21"/>
+    <busStop id="busStop_33557890#1_0_5" lane="33557890#1_0" startPos="26.17" endPos="36.17"/>
+    <busStop id="busStop_56043685#1_0_0" lane="56043685#1_0" startPos="21.01" endPos="31.01"/>
+    <busStop id="busStop_56043685#1_0_6" lane="56043685#1_0" startPos="37.04" endPos="47.04"/>
+    <busStop id="busStop_86860823_0_4" lane="86860823_0" startPos="8.29" endPos="18.29"/>
+    <busStop id="busStop_86860823_0_7" lane="86860823_0" startPos="20.43" endPos="30.43"/>
+</additional>

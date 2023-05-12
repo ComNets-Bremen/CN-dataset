@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue 08 Nov 2022 10:02:36 AM UTC by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/veins/sumotest/CP/run1/final/test1/run1.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/veins/sumotest/CP/run1/final/test1/811.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/veins/sumotest/CP/run1/final/test1/811.add.xml"/>
+        <route-files value="/home/veins/sumotest/CP/run1/final/test1/811.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" vClass="bus" color="red"/>
+    <vType id="tram" vClass="tram" color="blue"/>
+    <route edges="-56041151#1 -56041151#0 -86860823 86860821#0 86860821#1 86860821#2 189004526#0 189004526#1 86865206 33557890#0 33557890#1" color="yellow" id="route_0"/>
+    <route edges="-56041151#0 -86860823 86860821#0 86860821#1 86860821#2 189004526#0 189004526#1 86865206 -26925581#2 -26925581#1 -26925581#0 -863004827 -26925580" color="yellow" id="route_1"/>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 31014214 86865206 33557890#0 33557890#1" color="yellow" id="route_10"/>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 31014214 86865206 -26925581#2 -26925581#1 -26925581#0 -863004827 -26925580" color="yellow" id="route_11"/>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 31014214 56043685#0 56043685#1" color="yellow" id="route_12"/>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 86865230#0 86865230#1 86865230#2 86865230#3 86865230#4 86860823 56041151#0 56041151#1" color="yellow" id="route_13"/>
+    <route edges="428260943 428260945#0 428260945#1 118227930 33557890#0 33557890#1" color="yellow" id="route_14">
+        <stop busStop="busStop_33557890#1_0_1" duration="60.00"/>
+    </route>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 31014214 56043685#0 56043685#1" color="yellow" id="route_15">
+        <stop busStop="busStop_56043685#1_0_6" duration="60.00"/>
+    </route>
+    <route edges="-56041151#1 -56041151#0 -86860823 86860821#0 86860821#1 86860821#2 189004526#0 189004526#1 86865206 33557890#0 33557890#1" color="yellow" id="route_16">
+        <stop busStop="busStop_33557890#1_0_1" duration="60.00"/>
+    </route>
+    <route edges="-56041151#1 -56041151#0 -86860823 86860821#0 86860821#1 86860821#2 189004526#0 189004526#1 56043685#0 56043685#1" color="yellow" id="route_17">
+        <stop busStop="busStop_56043685#1_0_0" duration="60.00"/>
+    </route>
+    <route edges="428260943 428260945#0 428260945#1 118227930 4041687 86865230#0 86865230#1 86865230#2 86865230#3 86865230#4 86860823 56041151#0 56041151#1" color="yellow" id="route_18">
+        <stop busStop="busStop_86860823_0_7" duration="60.00"/>
+    </route>
+    <route edges="24798229#6 428260942 428260946#0 428260946#1 86865230#0 86865230#1 86865230#2 86865230#3 86865230#4 86860823 56041151#0 56041151#1" color="yellow" id="route_19">
+        <stop busStop="busStop_86860823_0_4" duration="60.00"/>
+    </route>
+    <route edges="-56041151#1 -56041151#0 -86860823 86860821#0 86860821#1 86860821#2 189004526#0 189004526#1 56043685#0 56043685#1" color="yellow" id="route_2"/>
+    <route edges="251393900#2 251393900#3 251393900#4 251393900#5" color="yellow" id="route_20">
+        <stop busStop="busStop_251393900#2_0_3" duration="60.00"/>
+    </route>
+    <route edges="251393901#0 251393901#1 251393901#2 251393901#3" color="yellow" id="route_21">
+        <stop busStop="busStop_251393901#3_0_2" duration="60.00"/>
+    </route>
+    <route edges="428260943 428260945#0 428260945#1 118227930 4041687 31014214 56043685#0 56043685#1" color="yellow" id="route_3"/>
+    <route edges="428260943 428260945#0 428260945#1 118227930 4041687 86865230#0 86865230#1 86865230#2 86865230#3 86865230#4 86860823 56041151#0 56041151#1" color="yellow" id="route_4"/>
+    <route edges="428260943 428260945#0 428260945#1 118227930 33557890#0 33557890#1" color="yellow" id="route_5"/>
+    <route edges="428260943 428260945#0 428260945#1 118227930 -26925581#2 -26925581#1 -26925581#0 -863004827 -26925580" color="yellow" id="route_6"/>
+    <route edges="26925580 863004827 26925581#0 26925581#1 26925581#2 4041687 31014214 56043685#0 56043685#1" color="yellow" id="route_7"/>
+    <route edges="26925580 863004827 26925581#0 26925581#1 26925581#2 4041687 86865230#0 86865230#1 86865230#2 86865230#3 86865230#4 86860823 56041151#0" color="yellow" id="route_8"/>
+    <route edges="26925580 863004827 26925581#0 26925581#1 26925581#2 33557890#0 33557890#1" color="yellow" id="route_9"/>
+    <vehicle id="vehicle_0" depart="1.00" route="route_5"/>
+<vehicle id="vehicle_1" depart="1.00" route="route_5"/>
+<vehicle id="vehicle_2" depart="1.00" route="route_5"/>
+<vehicle id="vehicle_3" type="tram" depart="5.00" route="route_21"/>
+<vehicle id="vehicle_4" depart="5.00" route="route_5"/>
+<vehicle id="vehicle_5" depart="5.00" route="route_5"/>
+<vehicle id="vehicle_6" depart="10.00" route="route_5"/>
+<vehicle id="vehicle_7" depart="25.00" route="route_5"/>
+<vehicle id="vehicle_8" depart="25.00" route="route_5"/>
+<vehicle id="vehicle_9" depart="25.00" route="route_5"/>
+<vehicle id="vehicle_10" depart="39.00" route="route_12"/>
+<vehicle id="vehicle_11" type="bus" depart="42.00" route="route_18"/>
+<vehicle id="vehicle_12" depart="75.00" route="route_12"/>
+<vehicle id="vehicle_13" depart="75.00" route="route_12"/>
+<vehicle id="vehicle_14" depart="75.00" route="route_12"/>
+<vehicle id="vehicle_15" depart="75.00" route="route_12"/>
+<vehicle id="vehicle_16" depart="75.00" route="route_12"/>
+<vehicle id="vehicle_17" type="bus" depart="75.00" route="route_15"/>
+<vehicle id="vehicle_18" type="bus" depart="80.00" route="route_17"/>
+<vehicle id="vehicle_19" depart="81.00" route="route_12"/>
+<vehicle id="vehicle_20" depart="81.00" route="route_12"/>
+<vehicle id="vehicle_21" depart="81.00" route="route_12"/>
+<vehicle id="vehicle_22" depart="81.00" route="route_12"/>
+<vehicle id="vehicle_23" depart="83.00" route="route_9"/>
+<vehicle id="vehicle_24" type="tram" depart="83.00" route="route_20"/>
+<vehicle id="vehicle_25" depart="85.00" route="route_12"/>
+<vehicle id="vehicle_26" depart="85.00" route="route_12"/>
+<vehicle id="vehicle_27" type="bus" depart="90.00" route="route_18"/>
+<vehicle id="vehicle_28" depart="108.00" route="route_5"/>
+<vehicle id="vehicle_29" depart="112.00" route="route_5"/>
+<vehicle id="vehicle_30" depart="125.00" route="route_12"/>
+<vehicle id="vehicle_31" depart="125.00" route="route_12"/>
+<vehicle id="vehicle_32" depart="125.00" route="route_12"/>
+<vehicle id="vehicle_33" depart="125.00" route="route_12"/>
+<vehicle id="vehicle_34" depart="130.00" route="route_12"/>
+<vehicle id="vehicle_35" depart="130.00" route="route_12"/>
+<vehicle id="vehicle_36" depart="135.00" route="route_12"/>
+<vehicle id="vehicle_37" depart="150.00" route="route_5"/>
+<vehicle id="vehicle_38" depart="150.00" route="route_5"/>
+<vehicle id="vehicle_39" depart="155.00" route="route_5"/>
+<vehicle id="vehicle_40" depart="158.00" route="route_3"/>
+<vehicle id="vehicle_41" depart="161.00" route="route_11"/>
+<vehicle id="vehicle_42" depart="168.00" route="route_5"/>
+<vehicle id="vehicle_43" depart="170.00" route="route_5"/>
+<vehicle id="vehicle_44" depart="170.00" route="route_5"/>
+<vehicle id="vehicle_45" depart="191.00" route="route_12"/>
+<vehicle id="vehicle_46" depart="191.00" route="route_12"/>
+<vehicle id="vehicle_47" depart="195.00" route="route_5"/>
+<vehicle id="vehicle_48" depart="199.00" route="route_12"/>
+<vehicle id="vehicle_49" depart="199.00" route="route_12"/>
+<vehicle id="vehicle_50" depart="199.00" route="route_12"/>
+<vehicle id="vehicle_51" depart="218.00" route="route_5"/>
+<vehicle id="vehicle_52" depart="220.00" route="route_5"/>
+<vehicle id="vehicle_53" type="tram" depart="228.00" route="route_21"/>
+<vehicle id="vehicle_54" depart="266.00" route="route_12"/>
+<vehicle id="vehicle_55" depart="266.00" route="route_12"/>
+<vehicle id="vehicle_56" depart="266.00" route="route_12"/>
+<vehicle id="vehicle_57" depart="292.00" route="route_5"/>
+<vehicle id="vehicle_58" depart="308.00" route="route_12"/>
+<vehicle id="vehicle_59" depart="308.00" route="route_12"/>
+<vehicle id="vehicle_60" depart="314.00" route="route_12"/>
+<vehicle id="vehicle_61" depart="314.00" route="route_12"/>
+<vehicle id="vehicle_62" depart="314.00" route="route_12"/>
+<vehicle id="vehicle_63" depart="318.00" route="route_12"/>
+<vehicle id="vehicle_64" depart="318.00" route="route_12"/>
+<vehicle id="vehicle_65" depart="348.00" route="route_5"/>
+<vehicle id="vehicle_66" depart="353.00" route="route_5"/>
+<vehicle id="vehicle_67" depart="353.00" route="route_5"/>
+<vehicle id="vehicle_68" depart="363.00" route="route_12"/>
+<vehicle id="vehicle_69" depart="363.00" route="route_12"/>
+<vehicle id="vehicle_70" depart="363.00" route="route_12"/>
+<vehicle id="vehicle_71" depart="388.00" route="route_5"/>
+<vehicle id="vehicle_72" depart="388.00" route="route_5"/>
+<vehicle id="vehicle_73" depart="388.00" route="route_5"/>
+<vehicle id="vehicle_74" depart="394.00" route="route_5"/>
+<vehicle id="vehicle_75" depart="394.00" route="route_5"/>
+<vehicle id="vehicle_76" depart="408.00" route="route_5"/>
+<vehicle id="vehicle_77" depart="408.00" route="route_5"/>
+<vehicle id="vehicle_78" depart="408.00" route="route_5"/>
+<vehicle id="vehicle_79" depart="412.00" route="route_5"/>
+<vehicle id="vehicle_80" depart="415.00" route="route_5"/>
+<vehicle id="vehicle_81" depart="436.00" route="route_11"/>
+<vehicle id="vehicle_82" depart="436.00" route="route_11"/>
+<vehicle id="vehicle_83" type="tram" depart="441.00" route="route_21"/>
+<vehicle id="vehicle_84" depart="451.00" route="route_12"/>
+<vehicle id="vehicle_85" depart="451.00" route="route_12"/>
+<vehicle id="vehicle_86" depart="455.00" route="route_12"/>
+<vehicle id="vehicle_87" depart="458.00" route="route_5"/>
+<vehicle id="vehicle_88" depart="458.00" route="route_5"/>
+<vehicle id="vehicle_89" depart="462.00" route="route_5"/>
+<vehicle id="vehicle_90" depart="462.00" route="route_5"/>
+<vehicle id="vehicle_91" depart="462.00" route="route_5"/>
+<vehicle id="vehicle_92" depart="463.00" route="route_12"/>
+<vehicle id="vehicle_93" depart="463.00" route="route_12"/>
+<vehicle id="vehicle_94" depart="463.00" route="route_12"/>
+<vehicle id="vehicle_95" depart="465.00" route="route_12"/>
+<vehicle id="vehicle_96" depart="465.00" route="route_12"/>
+<vehicle id="vehicle_97" depart="473.00" route="route_5"/>
+<vehicle id="vehicle_98" depart="478.00" route="route_5"/>
+<vehicle id="vehicle_99" depart="503.00" route="route_12"/>
+<vehicle id="vehicle_100" depart="503.00" route="route_12"/>
+<vehicle id="vehicle_101" depart="503.00" route="route_12"/>
+<vehicle id="vehicle_102" depart="533.00" route="route_5"/>
+<vehicle id="vehicle_103" depart="535.00" route="route_5"/>
+<vehicle id="vehicle_104" depart="539.00" route="route_5"/>
+<vehicle id="vehicle_105" depart="545.00" route="route_12"/>
+<vehicle id="vehicle_106" depart="545.00" route="route_12"/>
+<vehicle id="vehicle_107" depart="553.00" route="route_12"/>
+<vehicle id="vehicle_108" depart="553.00" route="route_12"/>
+<vehicle id="vehicle_109" depart="553.00" route="route_12"/>
+<vehicle id="vehicle_110" depart="553.00" route="route_12"/>
+<vehicle id="vehicle_111" depart="561.00" route="route_3"/>
+<vehicle id="vehicle_112" depart="577.00" route="route_7"/>
+<vehicle id="vehicle_113" depart="580.00" route="route_5"/>
+<vehicle id="vehicle_114" depart="582.00" route="route_5"/>
+<vehicle id="vehicle_115" depart="582.00" route="route_5"/>
+<vehicle id="vehicle_116" depart="582.00" route="route_5"/>
+<vehicle id="vehicle_117" depart="592.00" route="route_5"/>
+<vehicle id="vehicle_118" depart="599.00" route="route_5"/>
+</routes>
